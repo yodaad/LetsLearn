@@ -1,0 +1,100 @@
+
+
+.root{
+    align: center;
+    -fx-background-image: url("/images/background3.jpg");
+ /*  -fx-background-color: linear-gradient(#ebf3f5, #def9ff);*/
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0); 
+
+}
+
+
+
+.label {
+    -fx-font-size: 16px;
+    -fx-font-family: "Courier";
+    -fx-font-weight: bold;
+    -fx-text-fill: #FFFFFF;
+    -fx-effect: dropshadow(gaussian, rgba(255, 255, 255, 0), 0, 0, 0, 1);
+
+}
+
+
+
+/** style anchor Pane */
+#anchorP {
+    -fx-background-image: url("/images/background2.jpg");
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, gray, 30, 0.5, 0, 0); 
+}
+
+#topP {
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, white, 10, 1, 0, 0); 
+}
+
+/** style labels*/
+
+
+/** Style Text */
+
+#welcome-text {
+    -fx-font-size: 32px;
+    -fx-font-family: "Arial Black";
+    -fx-fill: #000000;
+    -fx-effect: innershadow(three-pass-box, rgba(255, 255, 255, 0), 0, 0, 0, 1);
+
+}
+
+#action-target {
+    
+    -fx-font-weight: bold;
+    -fx-fill: #eb4034;
+    -fx-effect: dropshadow(gaussian, rgba(255, 255, 255, 0.5), 0, 0, 0, 1);
+
+}
+
+/** STYLE BUTTON */
+/* welcome page button*/
+#button2 {
+    -fx-font-family: "Arial Black";
+    -fx-font-size: 24px;
+    -fx-text-fill: RED;
+    -fx-background-color: linear-gradient(#f2f2f2, #ffffff);
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0.5, 1, 0.5),3 , 0.5, 1, 1);
+
+}
+#button2:hover {
+    -fx-background-color: linear-gradient(#cf0a42, #ed1f59);
+    -fx-text-fill: WHITE;
+    -fx-effect: dropshadow(three-pass-box, rgba(255, 255, 255, 0.9), 5, 0.0, 0, 1);
+}
+
+/* all buttons*/
+.button {
+    -fx-font-family: "Arial Black";
+    -fx-font-size: 12px;
+    -fx-text-fill: RED;
+    -fx-background-color: linear-gradient(#f2f2f2, #ffffff);
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0.5, 1, 0.5),3 , 0.5, 1, 1);
+
+}
+.button:hover {
+    -fx-background-color: linear-gradient(#cf0a42, #ed1f59);
+    -fx-text-fill: WHITE;
+    -fx-effect: dropshadow(three-pass-box, rgba(255, 255, 255, 0.9), 5, 0.0, 0, 1);
+}
+
+/* STYLE LETTERS SHAPE TRIANGLE */
+.rectangle {
+     -fx-background-color: linear-gradient(#cf0a42, #ed1f59);
+    -fx-text-fill: WHITE;
+    -fx-effect: dropshadow(three-pass-box, rgba(255, 255, 255, 0.9), 10, 0.0, 0, 1);
+
+}
+.rectangle:hover {
+    -fx-background-color: linear-gradient(#f2f2f2, #ffffff);
+    -fx-text-fill: RED;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0.5, 1, 0.5),3 , 0.5, 1, 1);
+}
